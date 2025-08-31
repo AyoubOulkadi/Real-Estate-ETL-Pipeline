@@ -7,15 +7,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import ssl
 import urllib3
-from webdriver_manager.core.http import HttpClient
 
 # Disable SSL certificate verification
 ssl._create_default_https_context = ssl._create_unverified_context
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
-
 
 def extract_property_data(driver, url_template, page_number):
     logging.info("Start Scraping Data...")
