@@ -1,39 +1,30 @@
-﻿# Real-estate-price-prediction-
-Ce projet consiste à collecter des données immobilières à partir du site **SAROUTY** en utilisant Selenium via une **instance EC2 d'Amazon Web Services (AWS)**. Les données collectées sont ensuite stockées dans un **bucket S3 pour un traitement ultérieur**.
+﻿# Real-Estate-ETL-Pipeline
+This project involves collecting real estate data from the **SAROUTY** website using Selenium via an Amazon Web Services (AWS) EC2 instance. The collected data is then stored in an S3 bucket for further processing.
 
-Ensuite, les données sont nettoyées, transformées et ingérées à l'aide d'**AWS Glue**. Le nettoyage et la transformation des données consistent à éliminer les doublons, à remplir les valeurs manquantes, à supprimer les données non pertinentes et à effectuer des transformations de données pour mieux les adapter à l'apprentissage automatique.
+Next, the data is cleaned, transformed, and ingested using AWS Glue. Data cleaning and transformation involve removing duplicates, filling in missing values, eliminating irrelevant data, and performing data transformations to better prepare it for machine learning.
 
-Une fois les données préparées, un modèle de machine learning est créé pour prédire les prix immobiliers en utilisant les autres colonnes. Pour automatiser le processus de scraping et de nettoyage des données, un fichier DAG est créé à l'aide de Airflow pour planifier et exécuter les tâches en fonction d'un calendrier spécifique.
-
-**Dans l'ensemble, ce projet vise à fournir une méthode efficace pour collecter et traiter des données immobilières à grande échelle, afin de fournir des prévisions précises et des informations utiles pour les analystes immobiliers, les investisseurs et les professionnels de l'immobilier.**
-
+**Overall, this project aims to provide an efficient method for collecting and processing real estate data at scale, delivering accurate Data and valuable insights for real estate analysts, investors, and professionals.
+**
 
 <h2> Architecture du projet </h2>
 
+EC2 instance runs a Python script using Selenium to extract data from SAROUTY.
 
-**EC2 instance** exécute un script Python utilisant Selenium pour extraire les données depuis SAROUTY.
-Les données collectées sont stockées dans un format tabulaire csv dans un fichier sur l'instance EC2.
+**Data storage in an S3 bucket:**
+The collected data is transferred from the EC2 instance to an AWS S3 bucket using the Python library boto3.
 
-**Stockage des données dans un bucket S3**:
-Les données collectées sont transférées depuis l'instance EC2 vers un bucket S3 sur AWS à l'aide de la bibliothèque Python boto3.
+**Data cleaning with AWS Glue:**
+The data stored in the S3 bucket is processed by AWS Glue, which can be used to perform data cleaning and feature engineering steps.
+AWS Glue is a fully managed data processing service that can handle data stored in S3, remove duplicates, fill missing values, and apply data transformations.
+The cleaned and transformed data is then stored in another S3 bucket.
 
-**Nettoyage des données avec AWS Glue** :
+**Loading data into Amazon Redshift:**
+After cleaning and transformation, the processed data is loaded into Amazon Redshift, a fully managed data warehouse service. This allows for fast SQL-based querying and analytics on the real estate data, enabling further insights and reporting.
 
-Les données stockées dans le bucket S3 sont traitées par AWS Glue, qui peut être utilisé pour effectuer les étapes de nettoyage des données et de feature engineering.
-**AWS Glue** est un service de traitement de données entièrement géré qui peut traiter les données stockées dans S3, éliminer les doublons, remplir les valeurs manquantes et appliquer des transformations de données.
-Les données nettoyées et transformées sont stockées dans un autre bucket S3.
-
-**Création d'un modèle de machine learning**:
-
-Les données nettoyées et transformées sont utilisées pour créer un modèle de machine learning qui prédit les prix de l'immobilier.
-Les bibliothèques de machine learning populaires telles que scikit-learn peuvent être utilisées pour créer le modèle.
-Le modèle est entraîné sur les données et évalué pour déterminer son exactitude.
-
-**Automatisation du processus avec Airflow**:
-
-Un fichier DAG est créé avec Apache Airflow pour automatiser le processus de scraping et de nettoyage des données.
-Le DAG peut être configuré pour s'exécuter à une fréquence spécifique (par exemple, une fois par jour) pour maintenir les données à jour.
-Airflow peut également envoyer des notifications par e-mail pour informer les utilisateurs du succès ou de l'échec du processus de scraping et de nettoyage.
+**Process Automation with Airflow:**
+A DAG file is created using Apache Airflow to automate the scraping and data cleaning process.
+The DAG can be scheduled to run at a specific frequency (e.g., daily) to keep the data up to date.
+Airflow can also send email notifications to inform users of the success or failure of the scraping and data cleaning process.
 
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/6pOlMcR.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 
