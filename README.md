@@ -40,8 +40,6 @@ SSH Connection EC2 Instance
 <img width="853" height="233" alt="scraping execution 5" src="https://github.com/user-attachments/assets/912aa7b8-6d4d-4e18-8d47-4a626c30d1a4" />
 
 Execute Script of Data Scrapping 
-<a href="https://www.imgur.com"><img src="https://i.imgur.com/0X09YX5.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
-<a href="https://www.imgur.com"><img src="https://i.imgur.com/NIQMnxm.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="200" /></a>
 
 <h3> Data ingestion into S3 Bucket </h3>
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/6S7xdNe.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
