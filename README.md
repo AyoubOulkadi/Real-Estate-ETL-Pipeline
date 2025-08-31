@@ -27,6 +27,15 @@ Airflow can also send email notifications to inform users of the success or fail
 
 <img width="854" height="188" alt="SSH Connection 1 " src="https://github.com/user-attachments/assets/8bc002ef-3190-48b9-8b6c-0fb5f03816d0" />
 
+SSH Connection EC2 Instance 
+
+<img width="940" height="331" alt="scp protocol 2" src="https://github.com/user-attachments/assets/af300656-8d08-40c2-a76b-862e2a206231" />
+<img width="937" height="311" alt="scp 2" src="https://github.com/user-attachments/assets/82c6acc2-3be2-4f4e-b49b-e2998c969b49" />
+
+<img width="928" height="238" alt="scraping-execution 4" src="https://github.com/user-attachments/assets/901369f9-5d4b-4811-bc63-65be29083470" />
+<img width="853" height="233" alt="scraping execution 5" src="https://github.com/user-attachments/assets/912aa7b8-6d4d-4e18-8d47-4a626c30d1a4" />
+
+Execute Script of Data Scrapping 
 
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/6pOlMcR.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 
