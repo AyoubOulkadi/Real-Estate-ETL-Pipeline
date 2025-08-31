@@ -25,6 +25,10 @@ A DAG file is created using Apache Airflow to automate the scraping and data cle
 The DAG can be scheduled to run at a specific frequency (e.g., daily) to keep the data up to date.
 Airflow can also send email notifications to inform users of the success or failure of the scraping and data cleaning process.
 
+<a href="https://www.imgur.com"><img src="https://i.imgur.com/6pOlMcR.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
+
+<h2>Steps for realizing the project</h2>
+<h3> Start by scraping data in EC2 instance </h3> 
 <img width="854" height="188" alt="SSH Connection 1 " src="https://github.com/user-attachments/assets/8bc002ef-3190-48b9-8b6c-0fb5f03816d0" />
 
 SSH Connection EC2 Instance 
@@ -36,11 +40,6 @@ SSH Connection EC2 Instance
 <img width="853" height="233" alt="scraping execution 5" src="https://github.com/user-attachments/assets/912aa7b8-6d4d-4e18-8d47-4a626c30d1a4" />
 
 Execute Script of Data Scrapping 
-
-<a href="https://www.imgur.com"><img src="https://i.imgur.com/6pOlMcR.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
-
-<h2>Steps for realizing the project</h2>
-<h3> Start by scraping data in EC2 instance </h3> 
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/0X09YX5.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/NIQMnxm.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="200" /></a>
 
