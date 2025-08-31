@@ -25,6 +25,9 @@ A DAG file is created using Apache Airflow to automate the scraping and data cle
 The DAG can be scheduled to run at a specific frequency (e.g., daily) to keep the data up to date.
 Airflow can also send email notifications to inform users of the success or failure of the scraping and data cleaning process.
 
+<img width="854" height="188" alt="SSH Connection 1 " src="https://github.com/user-attachments/assets/8bc002ef-3190-48b9-8b6c-0fb5f03816d0" />
+
+
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/6pOlMcR.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 
 <h2>Steps for realizing the project</h2>
