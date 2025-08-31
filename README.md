@@ -30,7 +30,7 @@ Airflow can also send email notifications to inform users of the success or fail
 
 <h2>Steps for realizing the project</h2>
 <h3> Start by scraping data in EC2 instance </h3> 
-<a href="https://www.imgur.com"><img src="imgur.com/a/ozgnyQn.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
+<a href="https://www.imgur.com"><img src="https://i.imgur.com/ozgnyQn.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/0X09YX5.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/NIQMnxm.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="200" /></a>
 
