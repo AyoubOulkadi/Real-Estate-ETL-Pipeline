@@ -8,7 +8,6 @@ Next, the data is cleaned, transformed, and ingested using AWS Glue. Data cleani
 <h2> Architecture du projet </h2>
 
 EC2 instance runs a Python script using Selenium to extract data from SAROUTY.
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/ozgnyQn" data-context="false" ><a href="//imgur.com/a/ozgnyQn"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 **Data storage in an S3 bucket:**
 The collected data is transferred from the EC2 instance to an AWS S3 bucket using the Python library boto3.
