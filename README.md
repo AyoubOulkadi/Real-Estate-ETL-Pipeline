@@ -3,8 +3,7 @@ This project involves collecting real estate data from the **SAROUTY** website u
 
 Next, the data is cleaned, transformed, and ingested using AWS Glue. Data cleaning and transformation involve removing duplicates, filling in missing values, eliminating irrelevant data, and performing data transformations to better prepare it for machine learning.
 
-**Overall, this project aims to provide an efficient method for collecting and processing real estate data at scale, delivering accurate Data and valuable insights for real estate analysts, investors, and professionals.
-**
+**Overall, this project aims to provide an efficient method for collecting and processing real estate data at scale, delivering accurate Data and valuable insights for real estate analysts, investors, and professionals.**
 
 <h2> Architecture du projet </h2>
 
