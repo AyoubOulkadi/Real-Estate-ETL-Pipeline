@@ -5,27 +5,21 @@ Next, the data is cleaned, transformed, and ingested using AWS Glue. Data cleani
 
 **Overall, this project aims to provide an efficient method for collecting and processing real estate data at scale, delivering accurate Data and valuable insights for real estate analysts, investors, and professionals.**
 
-This project implements a scalable ETL (Extract, Transform, Load) pipeline for collecting, processing, and analyzing real estate data from the SAROUTY website.
-
-The pipeline leverages AWS services (EC2, S3, Glue, Redshift) for scalability and reliability, with Apache Airflow for automation and orchestration.
-
-The ultimate goal is to enable real estate analysts, investors, and professionals to access clean, structured, and analytics-ready data for decision-making.
-
 <h2> 🚀 Tech Stack </h2>
 
-AWS EC2 → Running Selenium-based scraper
+**AWS EC2** → Running Selenium-based scraper
 
-Selenium & Python → Web scraping
+**Selenium & Python** → Web scraping
 
-AWS S3 → Raw and processed data storage
+**AWS S3** → Raw and processed data storage
 
-AWS Glue → Data cleaning, transformation & schema management
+**AWS Glue** → Data cleaning, transformation & schema management
 
-Amazon Redshift → Data warehousing for analytics & BI
+**Amazon Redshift** → Data warehousing for analytics & BI
 
-Apache Airflow → Pipeline orchestration & automation
+**Apache Airflow** → Pipeline orchestration & automation
 
-boto3 → AWS SDK for Python
+**boto3** → AWS SDK for Python
 
 <h2> Architecture du projet </h2>
 
