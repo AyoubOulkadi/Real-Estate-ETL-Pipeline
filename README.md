@@ -39,14 +39,43 @@ SSH Connection EC2 Instance
 <img width="928" height="238" alt="scraping-execution 4" src="https://github.com/user-attachments/assets/901369f9-5d4b-4811-bc63-65be29083470" />
 <img width="853" height="233" alt="scraping execution 5" src="https://github.com/user-attachments/assets/912aa7b8-6d4d-4e18-8d47-4a626c30d1a4" />
 
-Execute Script of Data Scrapping 
+<h5>Execute Script of Data Scrapping </h5> 
 
 <h3> Data ingestion into S3 Bucket </h3>
+<h5>Creation of S3 Bucket</h5> 
+
+<img width="956" height="448" alt="S3 Creation 1" src="https://github.com/user-attachments/assets/31d2dfcb-0539-4cae-a5ce-d40fba839745" />
+
+<h5>Ingestion of Raw Data </h5>
+
+<img width="953" height="446" alt="Ingestion Raw Data " src="https://github.com/user-attachments/assets/c474bf5e-337e-421c-8010-08879a97682a" />
+
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/6S7xdNe.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 
 <h3> Data preprocessing in AWS Glue </h3>
+<h5>Creation of AWS Crawler </h5>
+
+<img width="953" height="446" alt="AWS GLUE CRAWLER " src="https://github.com/user-attachments/assets/593f4c90-858d-40cb-a84b-f25883515267" />
+<h5>Running AWS Crawler </h5>
+<img width="959" height="446" alt="Crawler Runned " src="https://github.com/user-attachments/assets/d62e273c-1168-4185-81db-f139990bd97e" />
+
+<h5>Glue Access Policy </h5>
+<img width="959" height="484" alt="Glue Access IAM Policy" src="https://github.com/user-attachments/assets/c51fda88-676a-4eda-aa28-73dd2495a27c" />
+
+<h5>Data After Processing and Partition Data in S3 Bucket </h5>
+<img width="947" height="365" alt="Data After Processing" src="https://github.com/user-attachments/assets/fa17c587-4011-4b76-b550-011a1adcc9f9" />
+<img width="953" height="299" alt="Partionned Data " src="https://github.com/user-attachments/assets/3d990efb-3b78-4f2c-9bbc-db7fba9e321e" />
+
+<h3> Data Warehousing using AWS Redhsift </h3>
+<img width="953" height="475" alt="Create Tables Using AWS Redshift Query Editor" src="https://github.com/user-attachments/assets/66ac4b64-73fd-491c-ab07-41ae2afb4815" />
+<a href="https://www.imgur.com"><img src="https://i.imgur.com/yT18UWV.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a> 
+
+
+
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/F5g0ctA.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 <a href="https://www.imgur.com"><img src="https://i.imgur.com/RshRjO8.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
 
-<h3> Now we will send the cleaned data into AWS Redshift for Data Warehouse </h3> 
-<a href="https://www.imgur.com"><img src="https://i.imgur.com/yT18UWV.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a> 
+
+<h3> Pipeline Orchestration using Apache Airflow </h3>
+
+<img width="953" height="254" alt="ETL With Airflow" src="https://github.com/user-attachments/assets/a538beab-e230-4a39-a567-ccc735ca7778" />
