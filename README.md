@@ -21,6 +21,14 @@ Next, the data is cleaned, transformed, and ingested using AWS Glue. Data cleani
 
 **boto3** → AWS SDK for Python
 
+<h2> 🚀 Key Features </h2>
+- Automated data extraction from SAROUTY using Selenium on EC2.
+- Data lake storage with S3 (raw & processed zones).
+- ETL with AWS Glue: removing duplicates, handling missing values, and preparing features.
+- Data warehouse integration with Redshift for fast SQL queries and reporting.
+- End-to-end orchestration with Airflow (scheduled, monitored, and automated).
+- Scalable architecture ready for high-volume real estate datasets.
+
 <h2> Architecture du projet </h2>
 
 EC2 instance runs a Python script using Selenium to extract data from SAROUTY.
