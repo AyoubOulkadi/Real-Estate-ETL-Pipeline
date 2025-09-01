@@ -5,6 +5,28 @@ Next, the data is cleaned, transformed, and ingested using AWS Glue. Data cleani
 
 **Overall, this project aims to provide an efficient method for collecting and processing real estate data at scale, delivering accurate Data and valuable insights for real estate analysts, investors, and professionals.**
 
+This project implements a scalable ETL (Extract, Transform, Load) pipeline for collecting, processing, and analyzing real estate data from the SAROUTY website.
+
+The pipeline leverages AWS services (EC2, S3, Glue, Redshift) for scalability and reliability, with Apache Airflow for automation and orchestration.
+
+The ultimate goal is to enable real estate analysts, investors, and professionals to access clean, structured, and analytics-ready data for decision-making.
+
+<h2> 🚀 Tech Stack </h2>
+
+AWS EC2 → Running Selenium-based scraper
+
+Selenium & Python → Web scraping
+
+AWS S3 → Raw and processed data storage
+
+AWS Glue → Data cleaning, transformation & schema management
+
+Amazon Redshift → Data warehousing for analytics & BI
+
+Apache Airflow → Pipeline orchestration & automation
+
+boto3 → AWS SDK for Python
+
 <h2> Architecture du projet </h2>
 
 EC2 instance runs a Python script using Selenium to extract data from SAROUTY.
@@ -68,13 +90,6 @@ SSH Connection EC2 Instance
 
 <h3> Data Warehousing using AWS Redhsift </h3>
 <img width="953" height="475" alt="Create Tables Using AWS Redshift Query Editor" src="https://github.com/user-attachments/assets/66ac4b64-73fd-491c-ab07-41ae2afb4815" />
-<a href="https://www.imgur.com"><img src="https://i.imgur.com/yT18UWV.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a> 
-
-
-
-<a href="https://www.imgur.com"><img src="https://i.imgur.com/F5g0ctA.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
-<a href="https://www.imgur.com"><img src="https://i.imgur.com/RshRjO8.jpg" alt="Alt Text" title="Click to enlarge" width="800" height="400" /></a>
-
 
 <h3> Pipeline Orchestration using Apache Airflow </h3>
 
