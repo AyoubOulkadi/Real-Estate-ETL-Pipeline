@@ -33,7 +33,7 @@ Next, the data is cleaned, transformed, and ingested using AWS Glue. Data cleani
 **End-to-end** **orchestration** with Airflow (scheduled, monitored, and automated).
 
 **Scalable architecture ready for high-volume real estate datasets.**
-<h2> Architecture du projet </h2>
+<h2> Project Architecture </h2>
 
 EC2 instance runs a Python script using Selenium to extract data from SAROUTY.
 
